@@ -15,7 +15,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 ./browsers.sh
 ./compression_tools.sh
 ./gpg.sh
-./image_tools.sh
 ./misc.sh
 ./misc_tools.sh
 ./../npm.sh

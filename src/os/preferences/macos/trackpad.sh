@@ -20,3 +20,13 @@ execute "defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Track
          defaults write com.apple.AppleMultitouchTrackpad TrackpadCornerSecondaryClick -int 0 && \
          defaults -currentHost write -g com.apple.trackpad.trackpadCornerClickBehavior -int 0" \
     "Map 'click or tap with two fingers' to the secondary click"
+
+
+execute "defaults write -g com.apple.trackpad.scaling 3" \
+    "Fast trackpad"
+
+execute "defaults write -g com.apple.mouse.scaling 5" \
+    "Fast mouse"
+
+execute "defaults write -g com.apple.swipescrolldirection 0" \
+    "Scroll direction: Not natural "
