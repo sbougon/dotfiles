@@ -25,7 +25,7 @@ execute "defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Track
 execute "defaults write -g com.apple.trackpad.scaling 3" \
     "Fast trackpad"
 
-execute "defaults write -g com.apple.mouse.scaling 5" \
+execute "defaults write -g com.apple.mouse.scaling 3" \
     "Fast mouse"
 
 execute "defaults write -g com.apple.swipescrolldirection 0" \
